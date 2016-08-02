@@ -149,12 +149,12 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  border-top: 10px solid $blue;
+  margin-bottom: 30px;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  padding: 10px 0;
 
   @include mobile {
     text-align: center;
@@ -174,7 +174,6 @@ img {
 .site-name {
   margin: 0;
   color: $darkGray;
-  cursor: pointer;
   font-family: $ptSans;
   font-weight: 300;
   font-size: 28px;
@@ -193,7 +192,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 14px; // @TODO: Vertically middle align
   font-family: $ptSans;
   font-size: 18px;
 
@@ -255,7 +254,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: $lighterGray;
 }
 
 footer {
